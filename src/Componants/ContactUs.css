@@ -1,0 +1,74 @@
+.contactHeading{
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+    background-color: rgb(12, 192, 117);
+}
+.contactHeading span{
+    color: red;
+}
+#contactUs{
+    background-color: black;
+    height: 700px;
+    
+}
+.contactUsForm{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.contactUsForm img{
+    height: 300px;
+    width: 500px;
+    margin-top: 90px;
+    
+   
+}
+.contactForm{
+    
+    margin-top: 90px;
+    background-color: rgb(31, 30, 30);
+    padding: 5px 5px;
+   
+    width: 500px;
+    height: 300px;
+}
+.contactForm label{
+    color: white;
+    margin-left: -233px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.contactForm input{
+    width: 360px;
+    /* border-radius: 22px; */
+    padding: 6px 16px;
+    border-radius: 16px;
+
+    
+}
+.contactForm input::placeholder{
+    color: rgb(133, 214, 11);
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.submitFormButton{
+    background-color: yellow;
+    height: 2rem;
+    width: 150px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.submitFormButton:hover{
+    background-color: rgb(245, 49, 49);
+}
+.connectUs{
+    color: rgb(255, 252, 252);
+    text-shadow: 1px 1px black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    font-weight: bold;
+}

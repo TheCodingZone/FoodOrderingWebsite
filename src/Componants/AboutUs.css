@@ -1,0 +1,47 @@
+.aboutHeading span{
+   color: yellow;
+}
+#aboutUs{
+    background-color: black;
+    height: 640px;
+}
+.aboutHeading{
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 1px 1px black;
+    background-color: rgb(12, 192, 117);
+    
+}
+.aboutSection{
+  
+}
+.left img{
+    margin-top: 80px;
+    margin-left: -480px;
+    height: 400px;
+    width: 500px;
+   
+   
+}
+.right{
+   background-color: rgb(37, 37, 37);
+   height: 400px;
+    width: 500px;
+    margin-left: 680px;
+    margin-top: -400px;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 6px;
+}
+.right h2{
+    color:white;
+}
+.right h2 span{
+    color: red;
+}
+.readMore{
+    background-color: yellow;
+    height: 2rem;
+    width: 150px;
+    font-weight: bold;
+}

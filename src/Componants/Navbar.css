@@ -1,0 +1,89 @@
+html{
+    /* font-size: 62.4%; */
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+}
+.header{
+     position: fixed;
+     display: flex;
+     align-items: center;
+     background-color: rgb(12, 192, 117);
+     height: 70px;
+     width: 100%;
+     z-index: 100;
+     border-bottom: 2px solid grey;
+}
+.logo img{
+    height: 70px;
+    mix-blend-mode: darken;
+   
+    
+}
+.navbar{
+    margin-left: 10px;
+    width: 900px;
+    
+   
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.navbar a:hover{
+    color: rgb(245, 241, 8);
+}
+.cart{
+  
+   width: 180px;
+   height: 40px;
+   border-radius: 18px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   box-shadow: 3px 2px rgb(85, 85, 85);
+   background-color: rgb(11, 170, 104);
+   margin-left: 80px;
+   cursor:pointer;
+
+}
+.cart .cart-icon{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.icon-span{
+    margin-left: 8px;
+    font-weight: bold;
+}
+.icon-span:hover{
+color:rgb(245, 241, 8);
+}
+.search-form{
+    position: absolute;
+     margin-top: 110px; 
+     margin-left: 970px;
+    
+   
+    
+}
+
+#search-box{
+    width: 300px;
+    height: 40px;
+    padding: 6px 6px;
+    border-radius: 18px;
+    
+}
+.fa-solid{
+    color: rgb(201, 7, 7);
+    margin-left: -40px;
+}
+.totalItem{
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
